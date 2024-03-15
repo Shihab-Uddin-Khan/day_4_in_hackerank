@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+/*
+Add `int max_of_four(int a, int b, int c, int d)` here.
+*/
+int greatest_number(int x , int y , int z , int k){
+if(x>y && x >z && x>k){
+    return x;
+}
+else if(y>x && y>z && y>k){
+    return y;
+}    
+else if(z>y && z>x && z>k){
+    return z;
+}
+else{
+    return k;
+}  
+    
+}
+
+int main() {
+int a , b, c, d,A;
+cin >> a;
+cin >> b;
+cin >> c;
+cin >> d;
+A=greatest_number(a,b,c,d); 
+cout << A << endl; 
+    return 0;
+}
