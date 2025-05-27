@@ -1,1 +1,1 @@
-# day_4_in_hackerank
+# Day_4_in_hackerank
